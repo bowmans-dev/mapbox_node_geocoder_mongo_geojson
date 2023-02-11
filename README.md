@@ -3,9 +3,8 @@
 - a back-end API using Express
 - a front end using MapBox to work with the API
 - Node-geocoder to convert addresses to geojson data
-- MapQuest API to convert addresses to geojson data
 - Mongoose db to store converted geojson data
-- Mongoose middleware for creating geo json fields
+- Mongoose middleware for creating geojson fields
 - Map Box to display geo json fields retrieved by the fetch API and plot locations.
 
 #### Add your MONGO_URI and GEOCODER_API_KEY to the "config/config.env" file.
